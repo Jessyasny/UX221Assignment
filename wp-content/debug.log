@@ -1,0 +1,13 @@
+[01-Feb-2025 00:25:42 UTC] PHP Warning:  Undefined array key "host" in /workspaces/UX221Assignment/.wordpress/wp-includes/pluggable.php on line 1625
+[01-Feb-2025 00:50:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_regex_encoding() in /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/vendor/voku/portable-utf8/src/voku/helper/UTF8.php:536
+Stack trace:
+#0 /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/vendor/voku/portable-utf8/bootstrap.php(7): voku\helper\UTF8::checkForSupport()
+#1 /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/vendor/composer/autoload_real.php(41): require('/workspaces/UX2...')
+#2 /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/vendor/composer/autoload_real.php(45): {closure}('b46ad4fe52f4d18...', '/workspaces/UX2...')
+#3 /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/vendor/autoload.php(25): ComposerAutoloaderInit2b45eeee88c4cd1d52f1a6f7508bc287::getLoader()
+#4 /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/simply-static.php(32): require('/workspaces/UX2...')
+#5 /workspaces/UX221Assignment/.wordpress/wp-admin/includes/plugin.php(2387): include_once('/workspaces/UX2...')
+#6 /workspaces/UX221Assignment/.wordpress/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('simply-static/s...')
+#7 /workspaces/UX221Assignment/.wordpress/wp-admin/plugins.php(60): activate_plugin('simply-static/s...', 'http://localhos...', false)
+#8 {main}
+  thrown in /workspaces/UX221Assignment/.wordpress/wp-content/plugins/simply-static/vendor/voku/portable-utf8/src/voku/helper/UTF8.php on line 536
